@@ -4,8 +4,9 @@ use Mnvx\Unoconv\Converter;
 use Mnvx\Unoconv\Format;
 use Mnvx\Unoconv\UnoconvParameters;
 use Symfony\Component\Process\Process;
+use PHPUnit\Framework\TestCase;
 
-class ConvertorTest extends \PHPUnit_Framework_TestCase
+class ConvertorTest extends TestCase
 {
     /**
      * @dataProvider converterProvider
@@ -29,7 +30,6 @@ class ConvertorTest extends \PHPUnit_Framework_TestCase
             ->with($this->equalTo($command));
 
         $converterStub->convert($parameters);
-
     }
 
     public function converterProvider()
@@ -75,5 +75,4 @@ class ConvertorTest extends \PHPUnit_Framework_TestCase
             ],
         ];
     }
-
 }
