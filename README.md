@@ -1,13 +1,14 @@
-# PHP wrapper over Unoconv
+# PHP wrapper over Unoconv, updated for Symfony 4
 Simple way for documents conversion into various formats.
 
 For example: html -> docx, html -> pdf, docx -> html and many more.
 
 More about [supported formats](http://dag.wiee.rs/home-made/unoconv/).
 
-## Usage
+:rotating_light: This fork will use whatever `symfony/process` package that the latest Laravel is using. We'll try to keep the other deps up-to-date.
 
-```
+## Usage
+```php
 use Mnvx\Unoconv\Converter;
 use Mnvx\Unoconv\UnoconvParameters;
 use Mnvx\Unoconv\Format;
@@ -32,12 +33,14 @@ $converter->convert($parameters);
 
 ```
 sudo apt-get install unoconv
-composer require mnvx/unoconv
+composer require northwestern-sysdev/unoconv
 ```
 
 If you have problems with Unoconv utility, read instructions descibed 
 in [official documentation](https://github.com/dagwieers/unoconv#problems-running-unoconv-from-nginxapachephp).
 
 ## License
-
 Released under the MIT license
+
+## Credits
+Originally forked from [mnvx/unoconv](https://github.comm/mnvx/unoconv) -- thanks mnvx!

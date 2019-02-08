@@ -1,10 +1,10 @@
 {
-  "name": "mnvx/unoconv",
+  "name": "northwestern-sysdev/unoconv",
   "license": "MIT",
   "type": "library",
-  "description": "Unoconv wrapper for PHP",
+  "description": "Unoconv wrapper for PHP, updated for Symfony 4",
   "keywords": ["unoconv"],
-  "homepage": "https://github.com/mnvx/unoconv",
+  "homepage": "https://github.com/NIT-Administrative-Systems/SysDev-unoconv",
   "autoload": {
     "psr-4": {
       "Mnvx\\Unoconv\\": "src/"
