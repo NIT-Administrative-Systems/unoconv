@@ -1,4 +1,4 @@
-# PHP wrapper over Unoconv, updated for Symfony 4
+# PHP wrapper over Unoconv [![Build Status](https://travis-ci.org/NIT-Administrative-Systems/SysDev-unoconv.svg?branch=master)](https://travis-ci.org/NIT-Administrative-Systems/SysDev-unoconv)
 Simple way for documents conversion into various formats.
 
 For example: html -> docx, html -> pdf, docx -> html and many more.
