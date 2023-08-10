@@ -1,4 +1,6 @@
 # PHP wrapper over Unoconv [![Build Status](https://travis-ci.org/NIT-Administrative-Systems/SysDev-unoconv.svg?branch=master)](https://travis-ci.org/NIT-Administrative-Systems/SysDev-unoconv)
+**Note:** We folded this into the repo that needed it to simplify upgrades, so this package is now deprecated.
+
 Simple way for documents conversion into various formats.
 
 For example: html -> docx, html -> pdf, docx -> html and many more.
